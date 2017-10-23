@@ -1,11 +1,11 @@
 /*
 	input = 5;
 	output:
-		E E E E E
-		  D D D D 
-		    C C C 
-		      B B
-		        A
+		5 5 5 5 5
+		4 4 4 4 
+		3 3 3 
+		2 2 
+		1
 */
 
 #include <bits/stdc++.h>
@@ -16,16 +16,14 @@ using namespace std;
 int main()
 {
 	fast_io;
-	int i,j,k,r,n;
+	int i,j,k,n;
 	char c;
 	cin>>n;
-	for(i = n,k=0;i > 0;i--,k++)
+	for(i = n;i > 0;i--)
 	{
-		for(j = 0 ;j < 2*k;j++)
-			cout<<" ";
-		for(r = 1;r <= n-k;r++)
+		for(j = n; j > n-i;j--)
 		{
-			c = 'A' + i - 1;
+			c =  '1'+i-1;
 			cout<<c<<" ";
 		}
 		cout<<endl;

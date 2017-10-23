@@ -1,11 +1,11 @@
 /*
 	input = 5;
 	output:
-		E E E E E
-		  D D D D 
-		    C C C 
-		      B B
-		        A
+		1 2 3 4 5
+		  1 2 3 4
+		    1 2 3
+		      1 2
+		        1
 */
 
 #include <bits/stdc++.h>
@@ -25,11 +25,11 @@ int main()
 			cout<<" ";
 		for(r = 1;r <= n-k;r++)
 		{
-			c = 'A' + i - 1;
+			c = '1' + r - 1;
 			cout<<c<<" ";
 		}
 		cout<<endl;
 	}
     
     return 0;
-}
+}		
