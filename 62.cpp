@@ -1,13 +1,13 @@
 /*
 	input = 3;
 	output:
-		  3
-		3 2 
+              3
+	    3 2 
 	  3 2 1
 	3 2 1 0
 	  3 2 1
-		3 2
-		  3
+	    3 2
+	      3
 */
 
 #include <bits/stdc++.h>
