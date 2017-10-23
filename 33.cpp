@@ -1,10 +1,10 @@
 /*
 	input = 5;
 	output:
-		E E E E E
-		  D D D D
-		    C C C
-		      B B
+		A B C D E
+		  A B C D
+		    A B C
+		      A B
 		        A
 */
 
