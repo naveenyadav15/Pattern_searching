@@ -1,13 +1,13 @@
   /*
 	input = 3;
 	output:
-	      C 
-	    C B 
-	  C B A 
-	C B A @ 
-	  C B A 
-	    C B 
-	      C 
+	      D 
+	    D C 
+	  D C B 
+	D C B A 
+	  D C B 
+	    D C 
+	      D
 */
 
 #include <bits/stdc++.h>
@@ -32,7 +32,7 @@ int main()
 			cout<<"  ";
 		for(j = n;k > 0;j--,k--)
 		{
-			c = 'A'+j-1;
+			c = 'A'+j;
 			cout<<c<<" ";
 		}
 		cout<<endl;
