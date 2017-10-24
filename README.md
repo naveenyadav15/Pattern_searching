@@ -5,4 +5,3 @@
 	-  Different patterns by using numerals.  
 	-  Different patterns by using special symbols.  
 
-Note:-Patterns are the most important step towards learning for loops. One can practice for loop with the help of patterns.
