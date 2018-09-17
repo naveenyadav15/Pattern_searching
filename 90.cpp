@@ -5,7 +5,7 @@
 	 D     D
 	  C   C
 	   B B
-		A
+	    A
 */
 
 #include <bits/stdc++.h>
